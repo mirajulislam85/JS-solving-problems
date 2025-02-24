@@ -1,3 +1,2 @@
-let lastDigit = 5;
-let nextInteger = lastDigit + 1;
-console.log(nextInteger);
+let num = parseInt(prompt("Enter an integer:"));
+alert("The next integer is: " + (num + 1));
